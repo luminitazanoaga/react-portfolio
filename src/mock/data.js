@@ -18,8 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'me.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    "I am a student at the state university in Moldova. I learn through the bachelor's program in computer science.But this is not the most significant attribution of my personality. I do not stop myself perfecting the vision of life and everything that defines it.I try, in the same way we all do. I learn, I perfect, I find myself and I look for myself again.",
+  paragraphTwo: 'I prefer quiet autumn evenings, strong morning coffee and documentaries.',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -30,7 +31,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'todolist.jpg',
     title: 'To Do List',
-    info: '',
+    info:
+      ' TO DO list app:, my html page have an input where you can enter your TO DO items , there is a Submit button that on click add new TO DO items to the existing list, there there is a Clear List button that delete all the TO DO items from the list, each Item in the list is displayed in a new line and have the possibility to be deleted from the list',
     info2: '',
     url: '',
     repo: 'https://github.com/luminitazanoaga/Calculate-Tip', // if no repo, the button will not show up
@@ -39,7 +41,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'calculatetip.jpg',
     title: 'Calculate Tip',
-    info: '',
+    info:
+      ' My will allow you to calculate the Tip for the waitress in a restaurant. My project allow the end user to enter:, The total bill amount", The Service level: Outstanding-30%, Good-20%, OKish-15%, Bad - 10%, Never coming back - 0%, The number of persons that are splitting the bill',
     info2: '',
     url: '',
     repo: 'https://github.com/luminitazanoaga/Calculate-Tip', // if no repo, the button will not show up
